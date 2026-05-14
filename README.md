@@ -59,18 +59,21 @@
 
 ## 📁 파일 구성
 
+```text
 airline-rating-analysis
 ├─ README.md
-├─ notebooks
-│  ├─ 01_eda.ipynb
-│  ├─ 02_modeling.ipynb
-│  ├─ 03_finetuning.ipynb
-│  └─ final_analysis.ipynb
-├─ data
-│  ├─ data.csv
-│  ├─ survey.csv
-│  ├─ new_train.csv
-│  └─ new_test.csv
-└─ models
-   ├─ base_model.keras
-   └─ scaler.pkl
+└─ airline-rating-analysis/
+   ├─ notebooks/
+   │  ├─ 01_eda.ipynb
+   │  ├─ 02_modeling.ipynb
+   │  ├─ 03_finetuning.ipynb
+   │  └─ final_analysis.ipynb
+   ├─ data/
+   │  ├─ data.csv
+   │  ├─ survey.csv
+   │  ├─ new_train.csv
+   │  └─ new_test.csv
+   └─ models/
+      ├─ base_model.keras
+      └─ scaler.pkl
+```
